@@ -1,0 +1,27 @@
+{
+  "name": "metida-crm-front",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --open",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "sass": "^1.37.0",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "id": 329,
+    "status": "В пути",
+    "goods": [
+      {
+        "name": "Помидоры",
+        "quantity": "500 кг",
+        "destination": "Москва"
+      },
+      {
+        "name": "Огурцы",
+        "quantity": "300 кг",
+        "destination": "Санкт-Петербург"
+      }
+    ]
+  },
+
+  {
+    "id": 330,
+    "status": "В пути",
+    "goods": [
+      {
+        "name": "Перец",
+        "quantity": "250 кг",
+        "destination": "Ростов-на-Дону"
+      },
+      {
+        "name": "Груши",
+        "quantity": "750 кг",
+        "destination": "Москва"
+      }
+    ]
+  }
+]
