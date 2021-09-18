@@ -21,11 +21,28 @@ const App = () => {
           {mockOrders.map((order, index) => (
             <tr key={order.id}>
               <th>{index + 1}</th>
-              <td>{order.id}</td>
+              <th>{order.id}</th>
               <td>{order.status}</td>
-              <td>{order.goods.map((good) => (
-                <p>{good.name} - {good.quantity} - {good.destination}</p>
-              ))}</td>
+              <td>
+                <table className="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>Имя</th>
+                      <th>Количество</th>
+                      <th>Пункт доставки</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {order.goods.map((good, index) => (
+                      <tr key={index}>
+                        <th>{good.name}</th>
+                        <td>{good.quantity}</td>
+                        <td>{good.destination}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </td>
             </tr>
           ))}
         </tbody>
